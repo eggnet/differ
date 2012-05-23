@@ -86,9 +86,6 @@ public class filediffer {
 		this.diffObjects = myDiffer.diff_main(result.chars1, result.chars2, false);
 		myDiffer.diff_charsToLines((LinkedList)diffObjects, result.lineArray);
 		
-		// merge and cleanup junk changes
-		myDiffer.diff_cleanupSemantic((LinkedList)this.diffObjects);
-		
 		// parse the diff location
 		getDiffLocation();
 	}
