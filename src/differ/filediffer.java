@@ -45,7 +45,7 @@ public class filediffer {
 	{
 		public int start = -1;
 		public int end = -1;
-		Diff diffObject;
+		public Diff diffObject;
 	};
 	
 	private boolean isModified = false;
