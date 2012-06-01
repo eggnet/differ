@@ -40,14 +40,6 @@ public class filediffer {
 		public methodResult(){};
 	};
 	
-	// Store location of a diff in a file
-	public class diffObjectResult
-	{
-		public int start = -1;
-		public int end = -1;
-		public Diff diffObject;
-	};
-	
 	private boolean isModified = false;
 	private String oldFileContent;
 	private String newFileContent;
